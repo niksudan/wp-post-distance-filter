@@ -1,5 +1,6 @@
 === Wordpress Post Distance Filter ===
 Contributors: niksudan
+Donate link: http://niksudan.com/
 Tags: posts, archive, distance, location, filter
 Requires at least: 3.0.1
 Tested up to: 3.4
@@ -76,3 +77,5 @@ You can see images of the plugin in action on the [GitHub repository](https://gi
 
 = 1.0 =
 * Initial release
+
+== Upgrade Notice ==
