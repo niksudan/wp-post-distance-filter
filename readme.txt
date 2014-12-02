@@ -79,3 +79,5 @@ You can see images of the plugin in action on the [GitHub repository](https://gi
 * Initial release
 
 == Upgrade Notice ==
+
+-
