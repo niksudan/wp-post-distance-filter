@@ -11,7 +11,13 @@ Filter posts by distance
 
 == Description ==
 
-Filter Wordpress posts by distance from a location, and optionally specify a maximum distance. Done through URL GET parameters. Customise a few options and you're ready to have it implemented.
+Filter posts by distance from a specified location.
+
+This plugin implements simplistic functionality to WordPress posts by enabling archives to be sorted via distances from a specified location when certain URL parameters are detected. You are able to show how far the post's distance is, and restrict results by a certain radius.
+
+Supports various units of measurement and is customisable too.
+
+Examples of use could be a job search or a store locator.
 
 == Installation ==
 
