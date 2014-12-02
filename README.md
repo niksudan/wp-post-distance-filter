@@ -40,10 +40,10 @@ You can show distance information using <code>the_distance();</code> and <code>g
 
     if (have_posts()) : while (have_posts()) : the_post();
 
-			the_title();
-			the_content();
-			the_distance();
+		the_title();
+		the_content();
+		the_distance();
 
-		endwhile; endif;
+	endwhile; endif;
 		
 And that's it!
