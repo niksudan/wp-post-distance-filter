@@ -1,7 +1,7 @@
 <div class="wrap">
 	
 	<h2>Wordpress Post Distance Filter</h2>
-	<p>Plugin by <a href="http://niksudan.com">Nik Sudan</a> | <a href="https://github.com/NikSudan/wp-distanceFilter/">View on Github</a></p>
+	<p>Plugin by <a href="http://niksudan.com">Nik Sudan</a> | <a href="https://github.com/NikSudan/wp-post-distance-filter/">View on Github</a></p>
 	<?php if (Wpdf::isEnabled()) : ?>
 		<div class="updated" style="border-left: 0;">
 			<p>Filter will work when the URL for an archive has the following format:</p>

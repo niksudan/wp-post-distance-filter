@@ -21,7 +21,7 @@ Examples of use could be a job search or a store locator.
 
 = Setup =
 
-Upload the wp-distanceFilter folder to your plugins directory, then activate the plugin in the Plugins menu. An options menu should become available beneath Settings.
+Upload the <code>wp-post-distance-filter</code> folder to your plugins directory, then activate the plugin in the Plugins menu. An options menu should become available beneath Settings.
 
 = Changing Options =
 
@@ -68,9 +68,12 @@ You need to enable the custom field option by clicking the post dropdown at the 
 
 == Screenshots ==
 
-You can see images of the plugin in action on the [GitHub repository](https://github.com/NikSudan/wp-distanceFilter).
+You can see images of the plugin in action on the [GitHub repository](https://github.com/NikSudan/wp-post-distance-filter).
 
 == Changelog ==
+
+= 1.0.1 =
+* Naming conventions
 
 = 1.0 =
 * Initial release

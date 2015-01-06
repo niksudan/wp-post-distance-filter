@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Wordpress Post Distance Filter
- * Plugin URI: https://github.com/NikSudan/wp-distanceFilter/
+ * Plugin URI: https://github.com/NikSudan/wp-post-distance-filter/
  * Description: Filter posts by distance
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Nik Sudan
  * Author URI: http://niksudan.com
  */
