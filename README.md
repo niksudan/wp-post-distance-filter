@@ -3,6 +3,8 @@ Wordpress Post Distance Filter
 
 Filter Wordpress posts by distance from a location, and optionally specify a maximum distance.
 
+[Download for Wordpress here!](https://wordpress.org/plugins/wp-post-distance-filter/)
+
 ## Setting Up
 
 Activate the plugin in the Plugins menu. An options menu should become available beneath Settings.
