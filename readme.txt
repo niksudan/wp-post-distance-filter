@@ -10,6 +10,8 @@ Filter posts by distance
 
 Filter posts by distance from a specified location.
 
+![Plugin in Action](http://i.imgur.com/BDuqajL.png)
+
 This plugin implements simplistic functionality to WordPress posts by enabling archives to be sorted via distances from a specified location when certain URL parameters are detected. You are able to show how far the post's distance is, and restrict results by a certain radius.
 
 Supports various units of measurement and is customisable too.
@@ -66,6 +68,8 @@ Make sure that you've specified a location
 You need to enable the custom field option by clicking the post dropdown at the very top of the page.
 
 == Screenshots ==
+
+![Options](http://i.imgur.com/6iM8OR7.png)
 
 You can see images of the plugin in action on the [GitHub repository](https://github.com/NikSudan/wp-post-distance-filter).
 
