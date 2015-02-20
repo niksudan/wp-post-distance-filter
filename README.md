@@ -38,7 +38,7 @@ Then enter the name of your location <code>meta_key</code> and specify the value
 
 For any archive page, if the URL location parameter is specified, it will order by distance. You can limit the number of results using the URL radius parameter.
 
-![Plugin in Action](http://i.imgur.com/BDuqajL.png)
+![Plugin in Action](http://i.imgur.com/stKQHan.png)
 
 You can show distance information using <code>the_distance();</code> and <code>get_the_distance();</code> within the WordPress loop.
 
