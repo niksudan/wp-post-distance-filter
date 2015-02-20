@@ -67,9 +67,6 @@ You need to enable the custom field option by clicking the post dropdown at the 
 
 == Screenshots ==
 
-1. http://i.imgur.com/BDuqajL.png
-2. http://i.imgur.com/6iM8OR7.png
-
 You can see images of the plugin in action on the [GitHub repository](https://github.com/NikSudan/wp-post-distance-filter).
 
 == Changelog ==
