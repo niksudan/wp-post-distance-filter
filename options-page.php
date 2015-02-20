@@ -1,7 +1,7 @@
 <div class="wrap">
 	
 	<h2><span class="dashicons dashicons-location-alt" style="font-size: 36px; width: 36px; height: 36px;"></span> Wordpress Post Distance Filter</h2>
-	<p>Plugin by <a href="http://niksudan.com">Nik Sudan</a> | <a href="https://github.com/NikSudan/wp-post-distance-filter/">View on Github</a> | Version 1.1.0</p>
+	<p>Plugin by <a href="http://niksudan.com">Nik Sudan</a> | <a href="https://github.com/NikSudan/wp-post-distance-filter/">View on Github</a> | <a href="https://wordpress.org/plugins/wp-post-distance-filter/">View on WordPress</a> | Version 1.1.0</p>
 
 	<?php if ( isset($_GET['settings-updated']) && $_GET['settings-updated'] == 'true' ) : ?>
 		<div id="message" class="updated below-h2"><p>Options updated</p></div>
