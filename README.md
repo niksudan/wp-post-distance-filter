@@ -5,6 +5,8 @@ Filter Wordpress posts by distance from a location, and optionally specify a max
 
 [Download for Wordpress here!](https://wordpress.org/plugins/wp-post-distance-filter/)
 
+This plugin implements simplistic functionality to WordPress posts by enabling archives to be sorted via distances from a specified location when certain URL parameters are detected. You are able to show how far the post's distance is, and restrict results by a certain radius.
+
 ## Setting Up
 
 Activate the plugin in the Plugins menu. An options menu should become available beneath Settings.
@@ -16,11 +18,11 @@ Activate the plugin in the Plugins menu. An options menu should become available
 On the options page you'll have a few settings that you can change to make the plugin work to your liking.
 
 - You can disable all location functionality by disabling it
-- You can change the name of the <code>meta_key</code> that the plugin looks for when calculating the latitude and longitude
 - You can change the unit of measurement
 - You can change the URL parameters
+- You can change the name of various <code>meta_keys</code> that the plugin uses when calculating the distance for each post
 
-![Options](http://i.imgur.com/DRHXa5o.png)
+![Options](http://i.imgur.com/6iM8OR7.png)
 
 ## Specifying Post Locations
 
@@ -28,7 +30,7 @@ To make a post able to be filtered, you must specify the location using a custom
 
 ![Custom Field Enable](http://i.imgur.com/EijS0Hx.png)
 
-Then enter the name of your location <code>meta_key</code> and specify the value you want it to show. After updating the post, two more custom fields should appear - <code>lat</code> and <code>lng</code> if done correctly.
+Then enter the name of your location <code>meta_key</code> and specify the value you want it to show. After updating the post, two more custom fields should appear - the lat and lng keys if done correctly.
 
 ![Custom Field](http://i.imgur.com/Bcaupq7.png)
 
