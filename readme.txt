@@ -20,7 +20,7 @@ Examples of use could be a job search or a store locator.
 
 = Setup =
 
-Upload the <code>wp-post-distance-filter</code> folder to your plugins directory, then activate the plugin in the Plugins menu. An options menu should become available beneath Settings.
+Upload the <code>wp-post-distance-filter</code> folder to your plugins directory, then activate the plugin in the Plugins menu. An option should appear under Settings.
 
 = Changing Options =
 

@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Wordpress Post Distance Filter
+ * Plugin Name: WordPress Post Distance Filter
  * Plugin URI: https://github.com/NikSudan/wp-post-distance-filter/
  * Description: Filter posts by distance
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: Nik Sudan
  * Author URI: http://niksudan.com
  */
@@ -273,7 +273,7 @@ function wpdf_compare( $a, $b )
  */
 function wpdf_register_options_page()
 {
-	add_menu_page( 'Distance Filter', 'Distance Filter', 'administrator', 'wpdf-options', 'wpdf_register_options_content', 'dashicons-location-alt' );
+	add_submenu_page( 'options-general.php', 'Distance Filter', 'Distance Filter', 'administrator', 'wpdf-options', 'wpdf_register_options_content' );
 }
 add_action( 'admin_menu', 'wpdf_register_options_page' );
 

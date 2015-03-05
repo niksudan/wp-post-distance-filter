@@ -9,9 +9,9 @@ This plugin implements simplistic functionality to WordPress posts by enabling a
 
 ## Setting Up
 
-Activate the plugin in the Plugins menu. An options menu should become available beneath Settings.
+Activate the plugin in the Plugins menu. An option should appear under Settings.
 
-![Activation](http://i.imgur.com/eJ8zZ8F.png)
+![Activation](http://i.imgur.com/7BN03W3.png)
 
 ## Changing Options
 
