@@ -71,6 +71,9 @@ You can see images of the plugin in action on the [GitHub repository](https://gi
 
 == Changelog ==
 
+= 1.1.1 =
+* Nest plugin under the Settings tab instead
+
 = 1.1.0 =
 * Improved options page
 * Latitude and longitude postmeta are now editable
