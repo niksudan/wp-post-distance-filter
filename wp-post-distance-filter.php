@@ -221,7 +221,7 @@ function wpdf_filter_where( $where )
 		$dis = Wpdf::distance( $posts[$i]->meta_value, $posts[$i + 1]->meta_value, $loc['lat'], $loc['lng'] );
 		$rad = Wpdf::get_rad();
 		if ( ( isset($_GET[$rad] ) && $dis < $_GET[$rad] ) || ! isset( $_GET[$rad] ) ) {
-			array_push( $queryStrings, 'wp_posts.ID = '.$posts[$i]->post_id );
+			array_push( $queryStrings, $wpdb->posts . '.ID = '.$posts[$i]->post_id );
 			array_push( $validPosts, array( 'distance' => number_format( $dis, 2 ), 'ID' => $posts[$i]->post_id ) );
 		}
 	}
@@ -235,7 +235,7 @@ function wpdf_filter_where( $where )
 	}
 	$queryString = ' AND (' . implode( ' OR ', $queryStrings ) . ')';
 	if ( count( $validPosts ) > 1 ) {
-		$wpdf_orderString = ' CASE wp_posts.ID ' . implode( ' ', $orderStrings ) . ' END';
+		$wpdf_orderString = ' CASE ' . $wpdb->posts . '.ID ' . implode( ' ', $orderStrings ) . ' END';
 	} else {
 		$wpdf_orderString = '';
 	}
